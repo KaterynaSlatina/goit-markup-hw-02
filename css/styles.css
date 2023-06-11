@@ -1,0 +1,139 @@
+:root {
+--brand-color: #4D5AE5;
+--main-color: #2E2F42;
+--text-color: #434455;
+--hover-color: #404BBF;
+--footer-color: #F4F4FD;
+--border-color: #E7E9FC;
+--inner-color: #FFFFFF;
+
+
+
+}
+
+.logo {
+    color: var(--brand-color);
+    Font family: 'Raleway', sans-serif;
+    Font-weight: 800;
+    Font size: 18px;
+    Line height: 1.16;
+    text-decoration: none;
+}
+
+.logo-header {
+color: var(--main-color);
+Font family: 'Raleway', sans-serif;
+Font-weight: 800;
+Font size: 18px;
+Line height: 1.16;
+}
+ .logo-footer {
+    color: var(--footer-color);
+    Font family: 'Raleway', sans-serif;
+    Font-weight: 800;
+    Font size: 18px;
+    Line height: 1.16;
+ }
+
+ .header-link {
+    color: var(--main-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+ }
+
+.header-link.active {
+    color: var(--brand-color);
+}
+
+ .link-contact {
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+ }
+
+.link-contact:hover,
+.link-contact:focus {
+    color: var(--hover-color);
+}
+
+.hero {
+    background-color: var(--main-color);
+ }
+
+ .hero-title {
+    color: var(--inner-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+ }
+
+ .hero-button {
+    background-color: var(--brand-color)
+    color: var(--inner-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+ }
+
+.hero-button.active {
+    background-color: var(--hover-color);
+}
+
+ .body {
+    background-color: var(--inner-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+ }
+
+ .header-title {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+ }
+
+ .button {
+    background-color: var(--footer-color);
+    color: var(--brand-color);
+    border: 1px solid;
+    border-color: var(--border-color);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+ }
+
+ .button:hover,
+ .button:focus {
+    background-color: var(--hover-color);
+    color: var(--inner-color);
+    border-radius: 4px;
+ }
+
+ .button.active {
+    background-color: var(--hover-color);
+    color: var(--inner-color);
+ }
+
+ ul {
+    list-style-type: none;
+ }
+
+ footer {
+    background-color: var(--main-color);
+ }
+
+ .text-footer {
+   color: var(--footer-color);
+ }

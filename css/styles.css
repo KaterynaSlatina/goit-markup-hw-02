@@ -8,40 +8,57 @@
 --inner-color: #FFFFFF;
 
 }
+ .body {
+    background-color: var(--inner-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+ }
 
 .logo {
     color: var(--brand-color);
-    Font family: 'Raleway', sans-serif;
-    Font-weight: 800;
-    Font size: 18px;
-    Line height: 1.16;
-    text-decoration: none;
+   text-decoration: none;
+   
+}
+
+.link {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-decoration: none;
    text-transform: uppercase;
 }
 
 .logo-header {
 color: var(--main-color);
-Font family: 'Raleway', sans-serif;
-Font-weight: 800;
-Font size: 18px;
-Line height: 1.16;
+
 }
 
  .logo-footer {
     color: var(--footer-color);
-    Font family: 'Raleway', sans-serif;
-    Font-weight: 800;
-    Font size: 18px;
-    Line height: 1.16;
+ }
+
+ .list {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   list-style: none;
  }
 
  .header-link {
     color: var(--main-color);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    text-decoration: none;
+      text-decoration: none;
+ }
+
+ .header-link-active {
+   color: var(--brand-color);
+      text-decoration: none;
  }
 
 .header-link:hover,
@@ -56,7 +73,7 @@ Line height: 1.16;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    text-decoration: none;
+      text-decoration: none;
  }
 
 .link-contact:hover,
@@ -91,15 +108,6 @@ Line height: 1.16;
     background-color: var(--hover-color);
 }
 
- .body {
-    background-color: var(--inner-color);
-    color: var(--text-color);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
- }
-
  .header-title {
     color: var(--main-color);
     font-weight: 500;
@@ -131,11 +139,7 @@ Line height: 1.16;
     color: var(--inner-color);
  }
 
- ul {
-    list-style-type: none;
- }
-
- footer {
+ .footer {
     background-color: var(--main-color);
  }
 

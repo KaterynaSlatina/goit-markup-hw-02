@@ -25,9 +25,6 @@
 }
 
 .link {
-   font-family: 'Raleway', sans-serif;
-   font-weight: 800;
-   font-size: 18px;
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-decoration: none;
@@ -65,6 +62,7 @@ color: var(--main-color);
 .address {
 font-style: normal;
 letter-spacing: 0.02em;
+
 }
 
  .link-contact {

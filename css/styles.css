@@ -55,28 +55,25 @@ color: var(--main-color);
    font-weight: 500;
    color: var(--main-color);
    text-decoration: none;
- }
-
- .header-link-active {
-   font-weight: 500;
-   color: var(--main-color);
-   text-decoration: none;
-   letter-spacing: 0.02em;
+   letter-spacing: 0.02em
  }
 
 .header-link:hover,
 .header-link:focus {
-    color: var(--brand-color);
+    color: var(--hover-color);
+}
+
+.address {
+font-style: normal;
 }
 
  .link-contact {
     color: var(--text-color);
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-      text-decoration: none;
+   text-decoration: none;
  }
 
 .link-contact:hover,
@@ -126,6 +123,13 @@ color: var(--main-color);
 
 }
 
+.section-title-index {
+   font-family: "Roboto, sans-serif";
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+}
+
 .section-title {
    font-weight: 500;
    font-size: 20px;
@@ -163,11 +167,6 @@ color: var(--main-color);
     background-color: var(--hover-color);
     color: var(--inner-color);
     border-radius: 4px;
- }
-
- .button.active {
-    background-color: var(--hover-color);
-    color: var(--inner-color);
  }
 
  .footer {

@@ -9,9 +9,10 @@
 
 }
  .body {
-    background-color: var(--inner-color);
-    color: var(--text-color);
-    font-family: 'Roboto', sans-serif;
+   background-color: var(--inner-color);
+   color: var(--text-color);
+   font-family: "Roboto",
+      sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -19,7 +20,7 @@
  }
 
 .logo {
-    color: var(--brand-color);
+   color: var(--brand-color);
    text-decoration: none;
    
 }
@@ -51,13 +52,16 @@ color: var(--main-color);
  }
 
  .header-link {
-    color: var(--main-color);
-      text-decoration: none;
+   font-weight: 500;
+   color: var(--main-color);
+   text-decoration: none;
  }
 
  .header-link-active {
-   color: var(--brand-color);
-      text-decoration: none;
+   font-weight: 500;
+   color: var(--main-color);
+   text-decoration: none;
+   letter-spacing: 0.02em;
  }
 
 .header-link:hover,
@@ -89,7 +93,6 @@ color: var(--main-color);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
    letter-spacing: 0.02em;
  }
 
@@ -123,7 +126,6 @@ color: var(--main-color);
 .section-title {
    font-size: 36px;
    line-height: 1.11;
-   text-align: center;
    letter-spacing: 0.02em;
    text-transform: capitalize;
    color: var(--main-color);

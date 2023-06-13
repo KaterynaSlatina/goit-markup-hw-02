@@ -36,7 +36,6 @@
 
 .logo-header {
 color: var(--main-color);
-
 }
 
  .logo-footer {
@@ -91,6 +90,7 @@ color: var(--main-color);
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+   letter-spacing: 0.02em;
  }
 
  .hero-button {
@@ -101,6 +101,7 @@ color: var(--main-color);
     font-size: 16px;
     line-height: 1.5;
     cursor: pointer;
+   letter-spacing: 0.04em;
  }
 
 .hero-button:hover,
@@ -110,10 +111,32 @@ color: var(--main-color);
 
  .header-title {
     color: var(--main-color);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    letter-spacing: 0.02em;
  }
+
+.text {
+   line-height:1.5;
+   letter-spacing: 0.02em;
+   color: var(--text-color);
+
+}
+
+.section-title {
+   font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: var(--main-color);
+}
+
+.section-our-team {
+   background-color: var(--footer-color);
+}
+
+.list-our-team {
+   background-color: var(--inner-color);
+}
 
  .button {
     background-color: var(--footer-color);
@@ -145,4 +168,6 @@ color: var(--main-color);
 
  .text-footer {
    color: var(--footer-color);
+   line-height: 1.5;
+   letter-spacing: 0.02em;
  }

@@ -44,7 +44,7 @@ color: var(--main-color);
 
  .list {
    font-family: 'Roboto', sans-serif;
-   font-weight: 500;
+   font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
    list-style: none;
@@ -115,7 +115,6 @@ color: var(--main-color);
  }
 
 .text {
-   line-height:1.5;
    letter-spacing: 0.02em;
    color: var(--text-color);
 
@@ -147,6 +146,7 @@ color: var(--main-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+   letter-spacing: 0.04em;
     cursor: pointer;
  }
 

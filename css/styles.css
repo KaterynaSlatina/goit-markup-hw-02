@@ -6,13 +6,12 @@
 --footer-color: #F4F4FD;
 --border-color: #E7E9FC;
 --inner-color: #FFFFFF;
-
 }
- .body {
+
+ body {
    background-color: var(--inner-color);
    color: var(--text-color);
-   font-family: "Roboto",
-      sans-serif;
+   font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -55,7 +54,7 @@ color: var(--main-color);
    font-weight: 500;
    color: var(--main-color);
    text-decoration: none;
-   letter-spacing: 0.02em
+   letter-spacing: 0.02em;
  }
 
 .header-link:hover,
@@ -65,6 +64,7 @@ color: var(--main-color);
 
 .address {
 font-style: normal;
+letter-spacing: 0.02em;
 }
 
  .link-contact {
@@ -125,11 +125,16 @@ font-style: normal;
 }
 
 .section-title-index {
+   color: var(--main-color);
    font-family: 'Roboto',
-      sans-serif;;
+      sans-serif;
    font-weight: 700;
    font-size: 36px;
    line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+
 }
 
 .section-title {

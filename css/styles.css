@@ -29,6 +29,7 @@
    text-decoration: none;
    text-transform: uppercase;
    line-height: 1.17;
+   letter-spacing: 0.02em;
    
 
 }
@@ -39,7 +40,6 @@
 
 .link {
    text-decoration: none;  
-   
 }
 
  .list {
@@ -53,6 +53,7 @@
    color: var(--main-color);
    text-decoration: none;
    line-height: 1.5;
+   letter-spacing: 0.02em;
 }
 
 .header-link:hover,

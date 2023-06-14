@@ -42,7 +42,6 @@
 
  .list {
    font-family: 'Roboto', sans-serif;
-   font-weight: 400;
    font-size: 16px;
    list-style: none;
  }
@@ -50,10 +49,9 @@
 .header-link link {
    text-decoration: none;
    font-weight: 500;
-      color: var(--main-color);
-      text-decoration: none;
-      letter-spacing: 0.02em;
-      line-height: 1.5;
+   color: var(--main-color);
+   letter-spacing: 0.02em;
+   line-height: 1.5;
 }
 
 .header-link:hover,
@@ -128,6 +126,7 @@ letter-spacing: 0.02em;
       font-size: 20px;
       color: var(--main-color);
       letter-spacing: 0.02em;
+      line-height: 1.2;
  }
 
 .text {

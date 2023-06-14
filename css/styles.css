@@ -36,12 +36,7 @@
    color: var(--footer-color);
 }
 
-
-
-
 .link {
-   line-height: 1.17;
-   letter-spacing: 0.03em;
    text-decoration: none;
 }
 

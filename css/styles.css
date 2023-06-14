@@ -33,15 +33,13 @@
 
 }
 
-
-
 .logo-footer {
    color: var(--footer-color);
 }
 
 .link {
    text-decoration: none;  
-   letter-spacing: 0.03em;
+   
 }
 
  .list {

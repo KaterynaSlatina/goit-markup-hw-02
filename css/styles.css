@@ -39,13 +39,15 @@
 }
 
 .link {
-   text-decoration: none;  
+   text-decoration: none;
+   
 }
 
  .list {
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
    list-style: none;
+letter-spacing: 0.02em;
  }
 
 .header-link {
@@ -53,7 +55,8 @@
    color: var(--main-color);
    text-decoration: none;
    line-height: 1.5;
-   letter-spacing: 0.02em;
+  
+  
    
 }
 

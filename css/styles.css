@@ -30,15 +30,10 @@
 
 .logo-header {
    color: var(--main-color);
-  
 }
 
 .logo-footer {
-   font-family: "Raleway", sans-serif;
-   font-weight: 800;
-   font-size: 18px;
    color: var(--footer-color);
-   text-transform: uppercase;
 }
 
 .link {
@@ -47,22 +42,6 @@
    text-decoration: none;
    
 }
-
-.logo-header {
-   font-family: "Raleway", sans-serif;
-      font-weight: 800;
-      font-size: 18px;
-color: var(--main-color);
-text-transform: uppercase;
-}
-
- .logo-footer {
-   font-family: "Raleway", sans-serif;
-      font-weight: 800;
-      font-size: 18px;
-    color: var(--footer-color);
-   text-transform: uppercase;
- }
 
  .list {
    font-family: 'Roboto', sans-serif;

@@ -16,6 +16,11 @@
     letter-spacing: 0.03em;
  }
 
+.logo-header {
+   color: var(--main-color);
+  
+}
+
 .logo {
    font-family: "Raleway", sans-serif;
    font-weight: 800;
@@ -24,13 +29,11 @@
    text-decoration: none;
    text-transform: uppercase;
    line-height: 1.17;
-   letter-spacing: 0.03em;
+   
 
 }
 
-.logo-header {
-   color: var(--main-color);
-}
+
 
 .logo-footer {
    color: var(--footer-color);
@@ -38,8 +41,7 @@
 
 .link {
    text-decoration: none;  
-   letter-spacing: 0.02em;
-     
+   letter-spacing: 0.03em;
 }
 
  .list {

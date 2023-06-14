@@ -37,6 +37,9 @@
 
 .link {
    text-decoration: none;
+   font-weight: 500;
+   letter-spacing: 0.02em;
+   color: var(--main-color);
 }
 
  .list {
@@ -47,9 +50,6 @@
 
 .header-link link {
    text-decoration: none;
-   font-weight: 500;
-   color: var(--main-color);
-   letter-spacing: 0.02em;
    line-height: 1.5;
 }
 
